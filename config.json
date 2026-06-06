@@ -1,0 +1,22 @@
+{
+  "token": "process.env.CONFIG_token",
+  "adminId": null,
+  "debug": false,
+  "maintenance": false,
+  "errorChannel": null,
+  "prefix": ">",
+  "webserver": true,
+  "bgm": {},
+  "noMessageContent": false,
+  "twentyFourSeven": [],
+  "alwaysTwentyFourSeven": true,
+  "cacheLevel": "memory",
+  "cacheLimit": 500,
+  "defaultLanguage": "ja",
+  "country": "JP",
+  "botWhiteList": [],
+  "djRoleNames": [
+    "DJ"
+  ],
+  "showGuildCountStatus": false
+}
