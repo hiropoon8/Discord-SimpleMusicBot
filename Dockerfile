@@ -59,6 +59,7 @@ RUN mkdir logs && \
 COPY --link --from=misc_deps /app/phantomjs/bin/phantomjs /usr/local/bin/phantomjs
 COPY --link ./lib ./lib
 COPY --link ./locales ./locales
+COPY --link ./config.json ./config.json
 COPY --link package.json package-lock.json ./
 COPY --link --from=deps /app/node_modules /app/node_modules
 COPY --link --from=builder /app/dist /app/dist
